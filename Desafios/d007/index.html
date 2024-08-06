@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Imagem Flexível</title>
+	<link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+	<h1>Imagem Flexível</h1>
+	 <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experência &#x1F917
+   </p>
+	<picture>
+		<source media="(max-width: 750px)" srcset="imagens/flor-p.jpg" type="image/jpg">
+		<source media="(max-width: 1050px)" srcset="imagens/flor-m.jpg" type="image/jpg">
+		<img src="imagens/flor-g.jpg" alt="Imagem de Flor">
+	</picture>
+	<audio preload="metadata" controls>
+		<source src="midia/rain-water.mp3" type="audio/mp3">
+	</audio>
+</body>
+</html>

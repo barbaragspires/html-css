@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exemplo de Hover</title>
+	<link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+	h1 {
+		font-size: 3em;
+		font-family: "Courgette", "sans-serif";
+	}
+ div {
+	width: 255px;
+    height: 222px;
+    background-color: #eeb8df;
+    text-align: center;
+    display: inline-block;
+    margin: 4px;
+		border: solid black 3px;
+		font-family: "Courgette", sans-serif;
+		font-size: 3em;
+ }
+ div > p {
+	 display: none;
+	
+ }
+ div:hover > p {
+	display: block;
+}
+</style>
+
+</head>
+<body>
+	<h1>Passe o mouse e descubra a mensagem!!</h1>
+	<div> 
+		<p>EU &#x1F469;&#x1F3FB;</p>
+	</div>
+	<div> 
+		<p>AMO &#x1FA77;</p>
+	</div>
+	<div> 
+		<p>VOCÊ &#x1F9D4;&#x1F3FE;&#x200D;&#x2642;&#xFE0F;</p>
+	</div>
+</body>
+</html>

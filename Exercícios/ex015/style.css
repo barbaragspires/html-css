@@ -1,0 +1,16 @@
+@charset "UTF-8"; /* Tudo em @ é regra. Adicionar comentário é ctrl kc e desmonentar ctlr k1*/
+
+
+body { background-color: blanchedalmond; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ h1 {color: #d28224;
+}
+
+ h2 {color: #835b2e;
+}
+
+ p {text-align: justify;
+
+}

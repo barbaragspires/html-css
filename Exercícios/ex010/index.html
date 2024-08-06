@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trabalhando com Links</title>
+</head>
+<body>
+	<h1>Usando Links Externos</h1>
+	<p>Você pode acessar o <a href="https://g1.globo.com/" target="_blank" rel="external" >site da Globo</a> usando links externos </p> <!--Usar target e rel (relação da pagina que vai abrir com a sua) para link nao sobrepor seu site--> 
+	<h1>Usando Links internos</h1>
+	<p>Está é a primeira página do site. Se você pode acessar também a minha <a href="pagina02.html" target="_self" rel="next">segunda página</a></p>
+	<p>Você também pode acessar nossa <a href="noticias/pagina003.html" target="_self">página de notícias</a></p>
+	<h1>Realizando download de arquivos</h1>
+	<ul>
+		<li><a href="download livros/01 - História da Internet.pdf" download="História da internet.pdf" type="application/pdf">Livro ''História da Internet'' PDF</a></li>
+		<li><a href="download livros/01 - História da Internet.zip" download="Historia da Internet.zip" type="application/zip">Livro 'História da Internet'' zip</a></li> <!--https://www.iana.org/assignments/media-types/media-types.xhtml para saber o tipo de type usar-->
+	</ul>
+</body>
+</html>
